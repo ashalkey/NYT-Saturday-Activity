@@ -5,25 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>New York Times</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="main.js"></script>
 </head>
 <body>
     <h1>New York Times Search</h1>
-    <form>
-        <span>Search Term:</span>
-        <input type="text" name="Value">
-
-        <span>Number of Records to Retrieve:</span>
-        <input type="text" name="Records">
-
-        <span>Start Year (Optional):</span>
-        <input type="text" name="Year">
-
-        <span>End Year(Optional):</span>
-        <input type="submit" name="Search">
+    <form id="form-info">
+        <div>
+                <span>Search Term:</span>
+                <input id="inputOne" type="text" name="Value">
+        </div>
+        
+        <div>
+                <span>Number of Records to Retrieve:</span>
+                <input id="inputTwo" type="text" name="Records">
+        </div>
+        
+        <div>
+                <span>Start Year (Optional):</span>
+                <input id="inputThree" type="text" name="Year">
+        </div>
+        
+        <div>
+                <span>End Year(Optional):</span>
+                <input id="inputFour" type="text" name="End Year">
+        </div>
+        <button type= "submit">Submit</button>
         <button type="button">Reset</button>
     </form>
+    <div id="results"></div>
 
 </body>
 </html>

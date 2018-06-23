@@ -1,15 +1,39 @@
-header{
-    margin-bottom: 20px;
-    width: 700px;
-    color: white;
-    background-color: navy;
-}
-
 body {
+    margin: 0 auto;
+    text-align: center;
+    width:100%;
     background: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+h1{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 80%;
+    color: white;
+    background-color: navy;
+    padding:20px 0;
+}
+#form-info{
+    width:80%;
+    display:inline-block;
+    background-color:grey;
+    
+
+}
+#form-info div{
+    width:100%;
+    display:inline-block;
+}
+#form-info div span{
+    float: left;
+    width:25%;
+}
+#form-info div input{
+    float: left;
+    width:70%;
+}
+
 
 @media screen and (max-width:640px){
 	.container{
